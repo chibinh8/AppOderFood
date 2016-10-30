@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itthembanan"
+        android:title="@string/ThemBA"
+        ></item>
+    <item
+        android:id="@+id/itthemthucdon"
+        android:title="Thêm Thực Đơn"
+        ></item>
+</menu>

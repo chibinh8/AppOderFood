@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SignUp"
+    android:background="@android:color/holo_blue_dark"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ĐĂNG KÝ"
+    android:id="@+id/EtxtDK"
+    android:textColor="@android:color/holo_orange_light"
+    android:textSize="@dimen/KhungICON"
+    android:layout_centerHorizontal="true"
+
+    />
+ <LinearLayout
+     android:layout_below="@+id/EtxtDK"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/LnDangKy"
+     android:orientation="vertical"
+     >
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/EtxtID"
+         android:hint= "@string/DangNhap"
+         android:background="@android:color/background_light"
+         android:textColorHint="@color/colorGray"
+         android:padding="@dimen/KhungDKPad"
+         android:layout_margin="@dimen/KhungDKPad"
+         android:drawablePadding="@dimen/KhungDKPad"
+         android:drawableLeft="@drawable/user"
+         android:singleLine="true"
+         />
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/EtxtPassword"
+         android:hint= "@string/MatKhau"
+         android:drawablePadding="@dimen/KhungDKPad"
+         android:background="@android:color/background_light"
+         android:textColorHint="@color/colorGray"
+         android:padding="@dimen/KhungDKPad"
+         android:layout_margin="@dimen/KhungDKPad"
+         android:drawableLeft="@drawable/password"
+         android:singleLine="true"
+         android:inputType="textPassword"
+         />
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/RadGsex"
+    >
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/KhungDKPad"
+    android:text="Nam"
+    android:textColor="@color/colorPrimary"
+    android:id="@+id/RadBSexMale"
+    />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nữ"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="@dimen/KhungDKPad"
+        android:id="@+id/RadBSexFemale"
+        android:layout_marginStart="30dp"
+        />
+</RadioGroup>
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/EtxtBirth"
+         android:hint= "@string/BirthDay"
+         android:background="@android:color/background_light"
+         android:textColorHint="@color/colorGray"
+         android:padding="@dimen/KhungDKPad"
+         android:layout_margin="@dimen/KhungDKPad"
+         android:drawablePadding="@dimen/KhungDKPad"
+         android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+         android:layout_marginTop="@dimen/KhungDKPad"
+         android:singleLine="true"
+         android:inputType="date"
+         />
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/EtxtCMND"
+         android:hint= "@string/CMDN"
+         android:background="@android:color/background_light"
+         android:textColorHint="@color/colorGray"
+         android:padding="@dimen/KhungDKPad"
+         android:layout_margin="@dimen/KhungDKPad"
+         android:drawablePadding="@dimen/KhungDKPad"
+         android:drawableLeft="@drawable/idcard"
+         android:layout_marginTop="@dimen/KhungDKPad"
+         android:singleLine="true"
+         android:inputType="numberDecimal"
+         android:maxLength="8"
+         />
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginTop="@dimen/KhungDKPad"
+         >
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/Accept"
+             android:layout_weight="1"
+             android:layout_marginRight="@dimen/KhungDKPad"
+             android:background="@android:color/holo_green_dark"
+             android:id="@+id/BtnDongy"
+             />
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/Exit"
+             android:layout_weight="1"
+             android:background="@android:color/holo_orange_dark"
+             android:id="@+id/BtnThoat"
+             />
+     </LinearLayout>
+
+ </LinearLayout>
+</RelativeLayout>

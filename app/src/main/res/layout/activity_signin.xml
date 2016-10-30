@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    tools:context=".SignIn"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Đăng Nhập"
+    android:textSize="@dimen/KhungICON"
+    android:layout_marginTop="80dp"
+    android:layout_centerHorizontal="true"
+    android:textColor="@android:color/holo_orange_dark"
+    android:id="@+id/txtDN"
+    />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logodangnhap"
+        android:layout_toRightOf="@+id/txtDN"
+        android:layout_marginTop="60dp">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDN"
+        android:orientation="vertical"
+        android:id="@+id/LnDangNhap"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="150dp"
+            android:id="@+id/Edtxtuser"
+            android:hint="Tên Dăng Nhập"
+            android:paddingLeft="@dimen/KhungDKPad"
+            android:background="#FFF"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="@dimen/KhungDKPad"
+            android:layout_margin="@dimen/KhungDKPad"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/KhungDKPad"
+            android:id="@+id/EdtxPass"
+            android:hint="Nhập Mật Khẩu"
+            android:paddingLeft="@dimen/KhungDKPad"
+            android:background="#FFF"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="@dimen/KhungDKPad"
+            android:layout_margin="@dimen/KhungDKPad"
+            android:inputType="textPassword"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/KhungDKPad"
+            android:background="@android:color/holo_red_light"
+            android:layout_margin="@dimen/KhungDKPad"
+            android:text="@string/Accept"
+            android:id="@+id/BtnDongyDN"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/KhungDKPad"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_margin="@dimen/KhungDKPad"
+            android:text="Đăng Ký"
+            android:id="@+id/BtnDK"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

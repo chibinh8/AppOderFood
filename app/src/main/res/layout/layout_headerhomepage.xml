@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height = "190dp"
+    android:background="@drawable/backgroundheader1"
+    android:id="@+id/navigation_header_container"
+    >
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="76dp"
+    android:layout_height="76dp"
+    android:src="@drawable/logodangnhap"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="24dp"
+    android:id="@+id/logo"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvtennhanvien_navi"
+        android:layout_below="@+id/logo"
+        android:text="Tên Nhân Viên"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/logo"
+        android:layout_alignStart="@+id/logo"
+        />
+</RelativeLayout>

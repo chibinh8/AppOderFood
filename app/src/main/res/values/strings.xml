@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">OrderFood</string>
+    <string name= "DangNhap">Tên Đăng Nhập</string>
+    <string name = "MatKhau">Mật Khẩu</string>
+    <string name = "NgaySinh">Ngày Sinh</string>
+    <string name ="CMDN">Chứng Minh Nhân Dân</string>
+    <string name ="BirthDay">Ngày Sinh</string>
+    <string name ="Accept">Đồng Ý</string>
+    <string name ="Exit">Thoát</string>
+    <string name ="ErrorSQL">Thêm Thất Bại</string>
+    <string name ="NoErrorSQL">Thêm thành công</string>
+    <string name ="DNTC">Đăng Nhập Thành Công!</string>
+    <string name ="DNTB">Đăng Nhập Thất Bại!</string>
+    <string name ="Open">Mở</string>
+    <string name ="Close">Đóng</string>
+    <string name="ThemBA">Thêm Bàn Ăn</string>
+    <string name="ThemTD">Thêm Thực Đơn</string>
+    <string name="Nhaplai">Vui Lòng Nhập Lại</string>
+</resources>

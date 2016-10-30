@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group
+    android:checkableBehavior="single"
+    >
+    <item
+        android:title ="Trang Chủ"
+        android:icon = "@drawable/trangchu"
+        android:checked="true"
+        android:id="@+id/ittrangchu"
+        ></item>
+    <item
+        android:title ="Thực Đơn"
+        android:icon = "@drawable/banan"
+        android:checked="true"
+        android:id="@+id/itthucdon"
+        ></item>
+    <item
+        android:title ="Nhân viên"
+        android:icon = "@drawable/nhanvien"
+        android:checked="true"
+        android:id="@+id/itnhanvien"
+        ></item>
+    <item
+        android:title ="Thống Kê"
+        android:icon = "@drawable/thongke"
+        android:checked="true"
+        android:id="@+id/itthongke"
+        ></item>
+    <item
+        android:title ="Cài Đặt"
+        android:icon = "@drawable/caidat"
+        android:checked="true"
+        android:id="@+id/itcaidat"
+        ></item>
+
+</group>
+
+</menu>
